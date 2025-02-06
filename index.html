@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<script src="https://unpkg.com/htmx.org@2.0.4"
+		integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="flex nav w-full p-3 justify-end">
+		<script type="text/javascript">
+			function redirect(url) {
+				window.location.href = url;
+				return false;
+			}
+		</script>
+
+		<button onclick="redirect('./index.html')"
+			class="bg-transparent text-lg transition duration-300 px-2 active">Home</button>
+
+		<button onclick="redirect('./linkage/home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">Linkage</button>
+		<button onclick="redirect('./songbird/home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">Songbird</button>
+
+		<button onclick="redirect('https://youtube.com/@Dev-DDS')"
+			class="yt bg-transparent text-lg transition duration-300 px-2">YouTube</button>
+		<button onclick="redirect('https://www.reddit.com/user/DoubleDotStudios/')"
+			class="reddit bg-transparent text-lg transition duration-300 px-2">Reddit</button>
+	</div>
+</body>
+
+</html>

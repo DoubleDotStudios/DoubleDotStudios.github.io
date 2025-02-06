@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+	<link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+	<div class="flex nav w-full p-3 justify-end">
+		<script type="text/javascript">
+			function redirect(url) {
+				window.location.href = url;
+				return false;
+			}
+		</script>
+
+		<button onclick="redirect('../../index.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">Home</button>
+
+		<button onclick="redirect('../home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2 active">Songbird</button>
+		<span class="mark bg-transparent text-lg px-2">-></span>
+		<button onclick="redirect('../os/home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">OS</button>
+		<button onclick="redirect('./home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2 active">WM</button>
+	</div>
+</body>
+
+</html>
