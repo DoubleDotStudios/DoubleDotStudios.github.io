@@ -31,3 +31,7 @@ body {
 .nav .mark {
 	color: #89b4fa;
 }
+
+.content h1 {
+	text-align: center;
+}
