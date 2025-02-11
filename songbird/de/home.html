@@ -7,7 +7,8 @@
 
 	<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
-	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="../../style.css">
+	<link rel="icon" type="image/x-icon" href="../../assets/SongbirdOS.svg">
 </head>
 
 <body>
@@ -19,13 +20,19 @@
 			}
 		</script>
 
-		<button onclick="redirect('../index.html')"
+		<button onclick="redirect('../../index.html')"
 			class="bg-transparent text-lg transition duration-300 px-2">Home</button>
 
+		<button onclick="redirect('../home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2 active">Songbird</button>
+		<span class="mark bg-transparent text-lg px-2">-></span>
+		<button onclick="redirect('../os/home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">OS</button>
+		<button onclick="redirect('../wm/home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">WM</button>
 		<button onclick="redirect('./home.html')"
-			class="bg-transparent text-lg transition duration-300 px-2 active">Linkage</button>
-		<button onclick="redirect('../songbird/home.html')"
-			class="bg-transparent text-lg transition duration-300 px-2">Songbird</button>
+			class="bg-transparent text-lg transition duration-300 px-2 active">DE</button>
+
 		<button onclick="redirect('https://youtube.com/@Dev-DDS')"
 			class="yt bg-transparent text-lg transition duration-300 px-2">YouTube</button>
 		<button onclick="redirect('https://www.reddit.com/user/DoubleDotStudios/')"
