@@ -1,3 +1,6 @@
+@import "styling/tags.css";
+@import "styling/nav.css";
+
 body {
 	background-color: #1e1e2e;
 	font-size: 12px;
@@ -8,30 +11,18 @@ body {
 	color: #cdd6f4;
 }
 
-.nav {
-	background-color: #181825;
+.content h1 {
+	text-align: center;
 }
 
-.nav button:hover {
-	color: #cba6f7;
-}
-
-.nav button.active {
-	color: #f38ba8;
-}
-
-.nav button.yt:hover {
-	color: #f38ba8;
-}
-
-.nav button.reddit:hover {
-	color: #fab387;
-}
-
-.nav .mark {
+.link {
 	color: #89b4fa;
 }
 
-.content h1 {
-	text-align: center;
+.link:visited {
+	color: #cba6f7;
+}
+
+.r-tag {
+	color: #a6e3a1;
 }

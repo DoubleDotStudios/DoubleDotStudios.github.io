@@ -1,0 +1,23 @@
+.nav {
+	background-color: #181825;
+}
+
+.nav button:hover {
+	color: #cba6f7;
+}
+
+.nav button.active {
+	color: #f38ba8;
+}
+
+.nav button.yt:hover {
+	color: #f38ba8;
+}
+
+.nav button.reddit:hover {
+	color: #fab387;
+}
+
+.nav .mark {
+	color: #89b4fa;
+}

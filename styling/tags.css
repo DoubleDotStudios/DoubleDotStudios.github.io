@@ -1,0 +1,51 @@
+.warn {
+	color: #f9e2af;
+	font-weight: bolder;
+	border-radius: 0.5rem;
+	border-width: 0.175rem;
+	background-color: #313244;
+	width: fit-content;
+	padding-inline: calc(var(--spacing) * 4);
+	padding-block: calc(var(--spacing) * 2);
+	font-size: 1.25rem;
+	line-height: calc(1.75 / 1.25);
+}
+
+.note {
+	color: #89b4fa;
+	font-weight: bolder;
+	border-radius: 0.5rem;
+	border-width: 0.175rem;
+	background-color: #313244;
+	width: fit-content;
+	padding-inline: calc(var(--spacing) * 4);
+	padding-block: calc(var(--spacing) * 2);
+	font-size: 1.25rem;
+	line-height: calc(1.75 / 1.25);
+}
+
+.danger {
+	color: #f38ba8;
+	font-weight: bolder;
+	border-radius: 0.5rem;
+	border-width: 0.175rem;
+	background-color: #313244;
+	width: fit-content;
+	padding-inline: calc(var(--spacing) * 4);
+	padding-block: calc(var(--spacing) * 2);
+	font-size: 1.25rem;
+	line-height: calc(1.75 / 1.25);
+}
+
+.recommend {
+	color: #a6e3a1;
+	font-weight: bolder;
+	border-radius: 0.5rem;
+	border-width: 0.175rem;
+	background-color: #313244;
+	width: fit-content;
+	padding-inline: calc(var(--spacing) * 4);
+	padding-block: calc(var(--spacing) * 2);
+	font-size: 1.25rem;
+	line-height: calc(1.75 / 1.25);
+}
