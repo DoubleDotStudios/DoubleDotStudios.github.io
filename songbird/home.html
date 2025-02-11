@@ -11,10 +11,11 @@
 	<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
 	<link rel="stylesheet" href="../style.css">
+	<link rel="icon" type="image/x-icon" href="../assets/SongbirdOS.svg">
 </head>
 
 <body>
-	<div class="flex nav w-full p-3 justify-end">
+	<nav class="flex nav w-full p-3 justify-end">
 		<script type="text/javascript">
 			function redirect(url) {
 				window.location.href = url;
@@ -32,11 +33,14 @@
 			class="bg-transparent text-lg transition duration-300 px-2">OS</button>
 		<button onclick="redirect('./wm/home.html')"
 			class="bg-transparent text-lg transition duration-300 px-2">WM</button>
+		<button onclick="redirect('./de/home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">DE</button>
+
 		<button onclick="redirect('https://youtube.com/@Dev-DDS')"
 			class="yt bg-transparent text-lg transition duration-300 px-2">YouTube</button>
 		<button onclick="redirect('https://www.reddit.com/user/DoubleDotStudios/')"
 			class="reddit bg-transparent text-lg transition duration-300 px-2">Reddit</button>
-	</div>
+	</nav>
 </body>
 
 </html>
