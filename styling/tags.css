@@ -7,8 +7,6 @@
 	width: fit-content;
 	padding-inline: calc(var(--spacing) * 4);
 	padding-block: calc(var(--spacing) * 2);
-	font-size: 1.25rem;
-	line-height: calc(1.75 / 1.25);
 }
 
 .note {
@@ -20,8 +18,6 @@
 	width: fit-content;
 	padding-inline: calc(var(--spacing) * 4);
 	padding-block: calc(var(--spacing) * 2);
-	font-size: 1.25rem;
-	line-height: calc(1.75 / 1.25);
 }
 
 .danger {
@@ -33,8 +29,6 @@
 	width: fit-content;
 	padding-inline: calc(var(--spacing) * 4);
 	padding-block: calc(var(--spacing) * 2);
-	font-size: 1.25rem;
-	line-height: calc(1.75 / 1.25);
 }
 
 .recommend {
@@ -46,6 +40,4 @@
 	width: fit-content;
 	padding-inline: calc(var(--spacing) * 4);
 	padding-block: calc(var(--spacing) * 2);
-	font-size: 1.25rem;
-	line-height: calc(1.75 / 1.25);
 }

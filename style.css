@@ -1,6 +1,11 @@
 @import "styling/tags.css";
 @import "styling/nav.css";
 
+html {
+	overflow: scroll;
+	scrollbar-color: #45475a #313244;
+}
+
 body {
 	background-color: #1e1e2e;
 	font-size: 12px;
@@ -25,4 +30,21 @@ body {
 
 .r-tag {
 	color: #a6e3a1;
+}
+
+.step span {
+	color: #89b4fa;
+	font-style: italic;
+}
+
+hr {
+	border: 0.05rem solid #89b4fa;
+}
+
+.code {
+	border: 0.15rem solid #89b4fa;
+	border-radius: 0.3rem;
+	padding: 0.4rem;
+	background-color: #313244;
+	width: fit-content;
 }
