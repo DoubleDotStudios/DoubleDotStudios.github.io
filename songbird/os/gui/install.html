@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+	<link rel="stylesheet" href="../../../style.css">
+	<link rel="icon" type="image/x-icon" href="../../../assets/SongbirdOS.svg">
+
+	<title>GUI | Install</title>
+</head>
+
+<body>
+	<nav class="flex nav w-full p-3 justify-end">
+		<script type="text/javascript">
+			function redirect(url) {
+				window.location.href = url;
+				return false;
+			}
+		</script>
+
+		<button onclick="redirect('../../../index.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">Home</button>
+
+		<button onclick="redirect('../../home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2 active">Songbird</button>
+		<span class="mark bg-transparent text-lg px-2">-></span>
+		<button onclick="redirect('../home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2 active">OS</button>
+		<button onclick="redirect('../../wm/home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">WM</button>
+		<button onclick="redirect('../../de/home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">DE</button>
+		<button onclick="redirect('https://youtube.com/@Dev-DDS')"
+			class="yt bg-transparent text-lg transition duration-300 px-2">YouTube</button>
+		<button onclick="redirect('https://www.reddit.com/user/DoubleDotStudios/')"
+			class="reddit bg-transparent text-lg transition duration-300 px-2">Reddit</button>
+	</nav>
+
+	<div class="content p-5">
+		<h1 class="text-5xl font-bold underline pt-8 pb-5">GUI Install</h1>
+		<p class="text-lg"><em>SongbirdOS</em> has the option to choose from a wide range of GUI
+			environments.
+			The
+			default environment on
+			the live media is <em>SDE</em>, the <em>Songbird Desktop Environment</em>, it's
+			extremely
+			customisable with the
+			ability to bind global hotkeys. And, it's Wayland-based ensuring that it'll be supported
+			more
+			and
+			more going forwards.
+		</p>
+		<br>
+		<p class="text-lg">
+			The <strong>recommended</strong> environments for <em>SongbirdOS</em> are <a
+				href="../de/home.html" target="_blank" class="link"><em>SDE</em></a>,
+			<a href="../wm/home.html" target="_blank" class="link"><em>SWM</em></a>, <a
+				href="https://github.com/YaLTeR/niri" target="_blank" class="link"><em>Niri</em></a> and
+			<a href="https://kde.org/plasma-desktop/" target="_blank" class="link"><em>KDE
+					Plasma</em></a>.
+			You can choose to have no GUI but this will result in a TTY install, this is not
+			recommended for
+			most users.
+		</p>
+	</div>
+
+
+</body>
+
+</html>

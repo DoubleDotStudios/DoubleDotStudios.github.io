@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+	<link rel="stylesheet" href="../../../style.css">
+	<link rel="icon" type="image/x-icon" href="../../../assets/SongbirdOS.svg">
+
+	<title>TTY | Install</title>
+</head>
+
+<body>
+	<nav class="flex nav w-full p-3 justify-end">
+		<script type="text/javascript">
+			function redirect(url) {
+				window.location.href = url;
+				return false;
+			}
+		</script>
+
+		<button onclick="redirect('../../../index.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">Home</button>
+
+		<button onclick="redirect('../../home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2 active">Songbird</button>
+		<span class="mark bg-transparent text-lg px-2">-></span>
+		<button onclick="redirect('../home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2 active">OS</button>
+		<button onclick="redirect('../../wm/home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">WM</button>
+		<button onclick="redirect('../../de/home.html')"
+			class="bg-transparent text-lg transition duration-300 px-2">DE</button>
+		<button onclick="redirect('https://youtube.com/@Dev-DDS')"
+			class="yt bg-transparent text-lg transition duration-300 px-2">YouTube</button>
+		<button onclick="redirect('https://www.reddit.com/user/DoubleDotStudios/')"
+			class="reddit bg-transparent text-lg transition duration-300 px-2">Reddit</button>
+	</nav>
+
+	<div class="content p-5">
+		<h1 class="text-5xl font-bold underline pt-8 pb-5">TTY Install</h1>
+		<div class="flex justify-center">
+			<p class="warn text-xl">A TTY install is not recommended for most users.</p>
+		</div>
+		<br>
+		<div id="Pre-installation" class="text-lg space-y-3">
+			<h2 class="step text-3xl"><span>1</span> Pre-installation</h2>
+			<hr>
+			<h2 class="step text-2xl font-bold"><span>1.1</span> Obtaining the ISO</h2>
+			<p>
+				Visit the Download page and download the ISO file and the sha512 checksum file.
+			</p>
+			<h2 class="step text-2xl font-bold"><span>1.2</span> Verifying the ISO</h2>
+			<p class="recommend text-[0.9rem]">It is recommended that you verify the ISO to check for
+				tampering or
+				corruption.</p>
+			<p>To verify the ISO have the checksum file in the same directory and run:</p>
+			<p class="code text-[0.9rem]">$ sha512sum --check SongbirdOS-VERSION.iso.sig</p>
+			<h2 class="step text-2xl font-bold"><span>1.3</span> Preparing the Live Media</h2>
+			<p>The official way to install <em>SongbirdOS</em> is via a USB flash drive. To do so use a GUI
+				such as BalenaEtcher, Rufus, Disk Utility. Or use the dd
+				command:</p>
+			<p class="code text-[0.9rem]"># dd bs=4M if=path/to/SongbirdOS-VERSION.iso of=/dev/sdaX
+				conv=fsync oflag=direct status=progress</p>
+			<h2 class="step text-2xl font-bold"><span>1.4</span> Booting the Live Media</h2>
+			<p></p>
+		</div>
+	</div>
+
+</body>
+
+</html>
